@@ -1,0 +1,309 @@
+html{
+	height: 100%;
+}
+
+@font-face {
+    font-family: Opensans; /* Гарнитура шрифта */
+    src: url(../fonts/opensans-regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body{
+	height: 100%;
+	background: url(../img/background.png) repeat;
+	font: normal 1em 'Opensans';
+	color: #727070;
+}
+
+/*RABOTA S HEADEROM*/
+.bigContainer{
+	min-width: 960px;
+	max-width: 1200px;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+.pageHeader{
+	height: 82px;
+	background: #737171;
+	margin-bottom: 26px;
+	border-bottom: 8px #FFFFFF solid;
+}
+
+.pageHeader .loft-Href{
+	position: absolute;
+	left: 0px;
+}
+
+.pageHeader .logo-text{
+	position: absolute;
+	left: -9000px;
+}
+
+.pageHeader .social-buttons{
+	position: absolute;
+	right: 5px;
+	top: 16px;
+
+}
+
+.social-buttons{
+	margin: 0;
+	padding: 0;
+
+}
+
+.social-buttons .social-button{
+	list-style: none;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin-left: 7px;
+
+}
+
+.social-buttons .social-button:first-child{
+	margin-left: 0px;
+}
+
+.social-buttons .social-href{
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-indent: -9000px;
+}
+
+.social-href.fb{
+	background: url(../img/facebook.png) center no-repeat;
+}
+.social-href.vk{
+	background: url(../img/vk.png) center no-repeat;
+}
+.social-href.tw{
+	background: url(../img/twitter.png) center no-repeat;
+}
+.social-href.gh{
+	background: url(../img/github.png) center no-repeat;
+}
+.social-href.fb:hover{
+	background: url(../img/facebook-hover.png) center no-repeat;
+}
+.social-href.vk:hover{
+	background: url(../img/vk-hover.png) center no-repeat;
+}
+.social-href.tw:hover{
+	background: url(../img/twitter-hover.png) center no-repeat;
+}
+.social-href.gh:hover{
+	background: url(../img/github-hover.png) center no-repeat;
+}
+
+/*HEADER VSE*/
+
+/*SIDEBARY*/
+
+.sidebar{
+	width: 250px;
+	float: left;
+
+}
+
+.navigation{
+	font-weight: bold;
+	overflow: hidden;
+	border-radius: 6px;
+	margin-bottom: 34px;
+	background: #f9f8f7;
+}
+
+.navigation .navigation-list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation .navigation-item{
+	margin: 0;
+	padding-left: 11px;
+
+}
+
+
+
+
+.navigation .navigation-item.current{
+	border: 1px #2fa185 solid;
+	background: linear-gradient(to top, #3fb79a, #7de8cd);
+	padding-left: 11px;
+
+}
+
+.navigation .navigation-item.current .navigation-link{
+	color: #1e7465;
+	font-size: 20px;
+}
+
+.navigation .navigation-link{
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	color: #727070;
+	margin-left: 16px;
+	padding: 15px 0px;
+}
+
+.navigation .navigation-item:hover{
+	background: linear-gradient(to top, #bebdbd, #dcdbdb);
+	margin: 0;
+}
+
+.navigation .navigation-item.current:hover{
+	background: linear-gradient(to top, #3fb79a, #7de8cd);
+}
+
+.contacts{
+	font-weight: bold;
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 34px;
+	background: #f9f8f7;
+}
+
+.contacts .header-contacts-text{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	overflow: hidden;
+	margin: 0;
+	padding-left: 27px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #d0982c;
+	border: 1px #caa152 solid;
+	background: linear-gradient(to top, #deb461, #f4ce82);
+
+}
+
+.contacts .contacts-list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border: 1px #d6d5d3 solid;
+}
+
+.contacts .contact-item{
+	width: 100%;
+	float: right;
+	border-bottom: 1px #d6d5d3 solid;
+}
+
+.contacts .contact-item.mail .contact-link{
+	text-decoration: underline;
+}
+
+.contacts .contact-link:hover{
+	background: linear-gradient(to top, #f2e7d2, #fbfbfb);
+}
+
+.contacts .contact-img{
+	display: block;
+	height: 38px;
+	width: 38px;
+	float: left;
+}
+
+.contacts .contact-link{
+	text-align: center;
+	width: 100%;
+	font-weight: lighter;
+	font-size: 14px;
+	font-style: normal;
+	text-decoration: none;
+	color: #727070;
+	display: block;
+	background: #f9f9f9;
+	height: 100%;
+	float: left;
+    padding-left: 20px;
+}
+
+.contacts .contact-href-text{
+	display: block;
+	margin-top: 8px;
+}
+
+/*SIDEBARY VSE*/
+
+/*MAIN CONTENT*/
+.main-content{
+	width: 650px;
+	float: right;
+}
+
+/*PRIBIVAEM FOOTER*/
+.content{
+	height: auto !important;
+	min-height: 100%;
+	min-width: 970px;
+	position: relative;
+}
+
+.content:after{
+	content: "";
+	height: 60px;
+	display: block;
+}
+
+.pageFooter{
+	min-width: 970px;
+	height: 60px;
+    margin-top: -60px;
+    clear: both;
+}
+/*PRIBILI*/
+
+.pageFooter{
+	background: #f9f9f9;
+}
+
+.pageFooter .container{
+	padding-top: 23px;
+	position: relative;
+}
+
+.pageFooter .copyright{
+	margin: 0, 0px;
+	padding-top: 7px;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+.pageFooter .lock{
+	position: absolute;
+	top: 26px;
+	left: 20px;
+}
+
+.pageFooter .lockHref{
+	font-size: 14px;
+	line-height: 2.2;
+	height: 30px;
+	display: block;
+	text-decoration: none;
+	background: url(../img/lock.png) no-repeat;
+	padding-left: 24px;
+}
+
+.pageFooter .lockHref:hover{
+	text-decoration: underline;
+	background: url(../img/unlock.png) no-repeat;
+}
+
+.container{
+	margin: 0 auto;
+	width: 960px;
+}

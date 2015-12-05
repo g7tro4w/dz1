@@ -1,0 +1,72 @@
+.main-block{
+	overflow: hidden;
+	border: 1px #bababa solid;
+	border-radius: 4px;
+	background: #f0efee;
+	margin-bottom: 26px;
+}
+
+.main-block .Head-text{
+	width: 100%;
+	font-size: 24px;
+	font-weight: bold;
+	color: #eeedec;
+	border: 1px #636363 solid;
+	margin: 0 0 38px;
+	background: linear-gradient(to top, #7c7979, #a8a7a7);
+	display: inline-block;
+	padding: 13px 44px;
+}
+
+.information{
+	width: 400px;
+	margin: 0 auto;
+}
+
+.information .contact-f{
+	margin-bottom: 30px;
+}
+
+.contact-f .name-email-contact{
+	margin-bottom: 20px;
+	display: table;
+}
+
+.name-contact{
+	width: 195px;
+	float: left;
+}
+
+.email-contact{
+	width: 195px;
+	float: right;
+}
+
+.contact-f .message-contact{
+	margin-bottom: 20px;
+}
+
+.area{
+	height: 180px;
+	width: 395px;
+}
+
+.capcha-contact{
+	margin-bottom: 20px;
+	display: table;
+}
+
+.capcha-text{
+	padding-bottom: 8px;
+}
+
+.capcha-img{
+	display: block;
+	float: left;
+}
+
+.capcha-confirm{
+	margin-top: 25px;
+	margin-left: 8px;
+	float: right;
+}

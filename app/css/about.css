@@ -1,0 +1,148 @@
+.main-block{
+	overflow: hidden;
+	border: 1px #bababa solid;
+	border-radius: 4px;
+	background: #f0efee;
+	margin-bottom: 26px;
+}
+
+.main-block .Head-text{
+	width: 100%;
+	font-size: 24px;
+	font-weight: bold;
+	color: #eeedec;
+	border: 1px #636363 solid;
+	margin: 0 0 38px;
+	background: linear-gradient(to top, #7c7979, #a8a7a7);
+	display: inline-block;
+	padding: 13px 44px;
+}
+
+.main-block .photo-wrap{
+	float: left;
+	margin-left: 44px;
+	margin-bottom: 38px;
+}
+
+.main-block .photo{
+	width: 152px;
+	height: 152px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	border: 10px #FFF solid;
+}
+
+.main-block .information{
+	float: right;
+	width: 380px;
+	margin-bottom: 38px;
+}
+
+.main-block .about-list{
+	
+	
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main-block .about-list-item{
+	margin-bottom: 8px;
+}
+
+.main-block .about-string{
+	float: left;
+	margin-left: 28px;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.main-block .about-text{
+	margin: 0px;
+	padding-left: 8px;
+	overflow: hidden;
+	font-size: 14px;
+	font-style: normal;
+	max-width: 220px;
+}
+
+.main-block .skill-list{
+	list-style: none;
+	float: right;
+	max-width: 220px;
+	padding: 0;
+}
+
+.main-block .skill-list .skill-list-item{
+	text-align: center;
+	float: left;
+	margin-left: 7px;
+	margin-bottom: 8px;
+	height: 18px;
+	display: block;
+	background-size: contain;
+}
+
+
+
+.main-block .work .work-list{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 36px;
+}
+
+.work-list .work-item{
+	font-size: 14px;
+	border-bottom: 1px #d0d0d0 groove;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+
+}
+
+.work-list .work-item:last-child{
+	border-style: none;
+}
+
+.work-item .where{
+	font-weight: bolder;
+}
+
+.main-block .edu .edu-list{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 36px;
+}
+
+.edu-list .edu-item{
+	font-size: 14px;
+	border-bottom: 1px #d0d0d0 groove;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+}
+
+.edu-list .edu-item:last-child{
+	border-style: none;
+}
+
+
+.edu-item .where{
+	font-weight: bolder;
+}
+
+.icon{
+	padding: 6px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	border: 1px #d0d0d0 groove;
+	float: left;
+	margin-left: 36px;
+	margin-right: 12px;
+}
+
+
+.skill-list .skill-list-item .skill-list-item-text{
+		background: url(../img/skill.png) no-repeat center;
+}
+

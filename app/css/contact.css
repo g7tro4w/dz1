@@ -38,6 +38,7 @@
 }
 
 .email-contact{
+	margin-left: 10px;
 	width: 195px;
 	float: right;
 }
@@ -69,4 +70,20 @@
 	margin-top: 25px;
 	margin-left: 8px;
 	float: right;
+}
+
+.buttons-contact{
+	display: table;
+	margin-bottom: 20px;
+
+}
+
+.submit-button{
+	float: left;
+	margin-left: 20px
+}
+
+.clear-button{
+	float: right;
+	margin-left: 100px;
 }

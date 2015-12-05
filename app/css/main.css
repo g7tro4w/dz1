@@ -10,6 +10,8 @@ html{
 body{
 	height: 100%;
 	background: url(../img/background.png) repeat;
+	background-size: cover;
+	background-position: center top;
 	font: normal 1em 'Opensans';
 	color: #727070;
 }
@@ -29,6 +31,11 @@ body{
 	background: #737171;
 	margin-bottom: 26px;
 	border-bottom: 8px #FFFFFF solid;
+}
+
+.loft-img{
+	height: 100%;
+	width: 100%;
 }
 
 .pageHeader .loft-Href{
@@ -125,8 +132,7 @@ body{
 
 .navigation .navigation-item{
 	margin: 0;
-	padding-left: 11px;
-
+	padding-left: 0;
 }
 
 
@@ -135,7 +141,7 @@ body{
 .navigation .navigation-item.current{
 	border: 1px #2fa185 solid;
 	background: linear-gradient(to top, #3fb79a, #7de8cd);
-	padding-left: 11px;
+	padding-left: 0;
 
 }
 
@@ -145,12 +151,14 @@ body{
 }
 
 .navigation .navigation-link{
+	height: 100%;
+	width: 100%;
 	display: block;
 	font-size: 20px;
 	text-decoration: none;
 	color: #727070;
-	margin-left: 16px;
-	padding: 15px 0px;
+	padding: 14px 0px;
+	padding-left: 28px;
 }
 
 .navigation .navigation-item:hover{
@@ -296,6 +304,8 @@ body{
 	text-decoration: none;
 	background: url(../img/lock.png) no-repeat;
 	padding-left: 24px;
+	color: #9c9c9c;
+	font-weight: bolder;
 }
 
 .pageFooter .lockHref:hover{

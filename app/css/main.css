@@ -38,7 +38,7 @@ body{
 .pageHeader{
 	height: 82px;
 	background: #737171;
-	margin-bottom: 26px;
+	margin-bottom: 34px;
 	border-bottom: 8px #FFFFFF solid;
 }
 
@@ -49,7 +49,7 @@ body{
 
 .pageHeader .loft-Href{
 	position: absolute;
-	left: 0px;
+	left: 6px;
 }
 
 .pageHeader .logo-text{
@@ -59,7 +59,7 @@ body{
 
 .pageHeader .social-buttons{
 	position: absolute;
-	right: 5px;
+	right: -2px;
 	top: 16px;
 
 }
@@ -128,9 +128,10 @@ body{
 .navigation{
 	font-weight: bold;
 	overflow: hidden;
-	border-radius: 6px;
+	border-radius: 5px;
 	margin-bottom: 34px;
 	background: #f9f8f7;
+	border: 1px #bababa solid;
 }
 
 .navigation .navigation-list{
@@ -142,13 +143,16 @@ body{
 .navigation .navigation-item{
 	margin: 0;
 	padding-left: 0;
+	border-bottom: 1px #bababa solid;
+}
+
+.navigation .navigation-item:last-child{
+	border-bottom: none;
 }
 
 
-
-
 .navigation .navigation-item.current{
-	border: 1px #2fa185 solid;
+	/*border: 1px #2fa185 solid;*/
 	background: linear-gradient(to top, #3fb79a, #7de8cd);
 	padding-left: 0;
 
@@ -166,7 +170,7 @@ body{
 	font-size: 20px;
 	text-decoration: none;
 	color: #727070;
-	padding: 14px 0px;
+	padding: 16px 0px;
 	padding-left: 28px;
 }
 
@@ -193,7 +197,7 @@ body{
 	overflow: hidden;
 	margin: 0;
 	padding-left: 27px;
-	padding-top: 8px;
+	padding-top: 9px;
 	padding-bottom: 8px;
 	width: 100%;
 	font-size: 20px;
@@ -205,6 +209,7 @@ body{
 }
 
 .contacts .contacts-list{
+	font-size: 14px;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -227,16 +232,15 @@ body{
 
 .contacts .contact-img{
 	display: block;
-	height: 38px;
-	width: 38px;
+	height: 36px;
+	width: 36px;
 	float: left;
+	padding-left: 22px;
 }
 
 .contacts .contact-link{
-	text-align: center;
 	width: 100%;
 	font-weight: lighter;
-	font-size: 14px;
 	font-style: normal;
 	text-decoration: none;
 	color: #727070;
@@ -244,12 +248,12 @@ body{
 	background: #f9f9f9;
 	height: 100%;
 	float: left;
-    padding-left: 20px;
 }
 
 .contacts .contact-href-text{
 	display: block;
-	margin-top: 8px;
+	padding-top: 10px;
+	margin-left: 92px;
 }
 
 /*SIDEBARY VSE*/

@@ -1,21 +1,22 @@
 .main-block{
 	overflow: hidden;
 	border: 1px #bababa solid;
-	border-radius: 4px;
+	border-radius: 5px;
 	background: #f0efee;
-	margin-bottom: 26px;
+	margin-bottom: 35px;
 }
 
 .main-block .Head-text{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 	width: 100%;
 	font-size: 24px;
 	font-weight: bolder;
 	color: #eeedec;
-	border: 1px #636363 solid;
-	margin: 0 0 30px;
+	margin: 0 0 38px;
 	background: linear-gradient(to top, #7c7979, #a8a7a7);
 	display: inline-block;
-	padding: 11px 44px;
+	padding: 14px 40px;
 }
 
 .main-block .photo-wrap{
@@ -25,11 +26,11 @@
 }
 
 .main-block .photo{
-	width: 135px;
-	height: 135px;
+	width: 136px;
+	height: 136px;
 	border-radius: 50% 50%;
 	overflow: hidden;
-	border: 8px #FFF solid;
+	border: 7px #FFF solid;
 }
 
 .avatar{
@@ -38,8 +39,8 @@
 
 .main-block .information{
 	float: right;
-	width: 440px;
-	margin-bottom: 38px;
+	width: 448px;
+	margin-bottom: 22px;
 }
 
 .main-block .about-list{
@@ -50,6 +51,10 @@
 
 .main-block .about-list-item{
 	margin-bottom: 8px;
+}
+
+.main-block .about-list-item:last-child{
+	margin-top: 20px;
 }
 
 .main-block .about-string{
@@ -97,19 +102,23 @@
 }
 
 .work-list .work-item{
+	margin-left: 40px;
+	width: 87%;
+	overflow: hidden;
 	font-size: 14px;
 	border-bottom: 1px #d0d0d0 groove;
 	padding-bottom: 20px;
-	margin-bottom: 12px;
-
+	margin-bottom: 20px;
 }
 
 .work-list .work-item:last-child{
 	border-style: none;
+	margin-bottom: -5px;
 }
 
 .work-item .where{
 	font-weight: bolder;
+	margin-bottom: 5px;
 }
 
 .main-block .edu .edu-list{
@@ -120,46 +129,56 @@
 }
 
 .edu-list .edu-item{
-	font-size: 14px;
+	/*font-size: 14px;
 	border-bottom: 1px #d0d0d0 groove;
 	padding-bottom: 12px;
 	margin-bottom: 12px;
-	height: auto;
+	height: auto;*/
+	margin-left: 40px;
+	width: 87%;
+	overflow: hidden;
+	font-size: 14px;
+	border-bottom: 1px #d0d0d0 groove;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .edu-list .edu-item:last-child{
-	display: block;
 	border-style: none;
 }
 
 
 .edu-item .where{
-	clear: none;
+	/*clear: none;
+	font-weight: bolder;*/
 	font-weight: bolder;
+	margin-bottom: 5px;
 }
 
 .text-wrap{
-	padding-top: 5px;
+	display: block;
+	height: 100%;
+	vertical-align: center;
 	clear: none;
-	margin-left: 100px;
-	height: auto;
+	margin-left: 95px;
 }
 
 .icon-wrap{
+	background: #FFF;
 	float: left;
-	width: 44px;
-	height: 44px;
+	width: 50px;
+	height: 50px;
 	border-radius: 50% 50%;
 	overflow: hidden;
-	border: 1px #d0d0d0 groove;
-	margin-left: 40px;
+	border: 1px #d0d0d0 solid;
+	box-shadow: 1px 1px 1px 0px #575555 inset; 
 }
 
 .icon{
-	width: 60%;
+	width: 45%;
 	position: relative;
-	top: 9px;
-	left: 9px;
+	top: 15px;
+	left: 14px;
 }
 
 

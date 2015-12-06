@@ -1,7 +1,7 @@
 .main-block{
 	overflow: hidden;
 	border: 1px #bababa solid;
-	border-radius: 4px;
+	border-radius: 6px;
 	background: #f0efee;
 	margin-bottom: 26px;
 }
@@ -9,13 +9,13 @@
 .main-block .Head-text{
 	width: 100%;
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: normal;
 	color: #eeedec;
 	border: 1px #636363 solid;
-	margin: 0 0 38px;
+	margin: 0 0 30px;
 	background: linear-gradient(to top, #7c7979, #a8a7a7);
 	display: inline-block;
-	padding: 13px 44px;
+	padding: 11px 44px;
 }
 
 .information{
@@ -29,61 +29,141 @@
 
 .contact-f .name-email-contact{
 	margin-bottom: 20px;
-	display: table;
+	display: inline-block;
 }
 
 .name-contact{
-	width: 195px;
+	width: 188px;
 	float: left;
 }
 
+.label-name{
+	display: block;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-bottom: 8px;
+}
+
+.label-email{
+	display: block;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-bottom: 8px;
+}
+
+.name-input{
+	font-size: 12px;
+	width: 188px;
+	height: 33px;
+	border: 1px #bababa solid;
+	border-radius: 4px;
+}
+
+.email-input{
+	font-size: 12px;
+	width: 188px;
+	height: 33px;
+	border: 1px #bababa solid;
+	border-radius: 4px;
+}
+
 .email-contact{
-	margin-left: 10px;
-	width: 195px;
+	margin-left: 20px;
+	width: 188px;
 	float: right;
 }
 
 .contact-f .message-contact{
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
-.area{
+.label-message{
+	display: block;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-bottom: 8px;
+}
+
+.message-input{
+	resize: none;
 	height: 180px;
 	width: 395px;
+	border: 1px #bababa solid;
+	border-radius: 4px;
+	font-size: 12px;
 }
 
 .capcha-contact{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	display: table;
 }
 
+.capcha-wraper{
+	float: left;
+	border: 1px #bababa solid;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
 .capcha-text{
-	padding-bottom: 8px;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-bottom: 8px;
 }
 
 .capcha-img{
 	display: block;
-	float: left;
+	width: 100%;
 }
 
 .capcha-confirm{
-	margin-top: 25px;
-	margin-left: 8px;
+	margin-top: 20px;
+	margin-left: 18px;
 	float: right;
+	font-size: 12px;
+	width: 188px;
+	height: 33px;
+	border: 1px #bababa solid;
+	border-radius: 4px;
 }
 
 .buttons-contact{
 	display: table;
-	margin-bottom: 20px;
-
+	margin-bottom: 150px;
+	
 }
 
 .submit-button{
+	font-weight: bolder;
+	background: #FFF;
 	float: left;
-	margin-left: 20px
+	margin-left: 28px;
+	height: 38px;
+	width: 125px;
+	border: 1px #bababa solid;
+	border-radius: 4px;
+	
 }
 
 .clear-button{
+	font-weight: bolder;
+	background: #FFF;
 	float: right;
-	margin-left: 100px;
+	margin-left: 95px;
+	height: 38px;
+	width: 125px;
+	border: 1px #bababa solid;
+	border-radius: 4px;
+
+}
+.submit-button:hover{
+	border: 1px #57d2b4 solid;
+	color: #1e7465;
+	background: linear-gradient(to top, #2d9a7f, #8fe7d1);
+}
+
+.clear-button:hover{
+	border: 1px #57d2b4 solid;
+	color: #1e7465;
+	background: linear-gradient(to top, #2d9a7f, #8fe7d1);
 }

@@ -83,23 +83,24 @@
 			<main class="main-content">
 					<div class="main-block">
 						<h1 class="Head-text">
-							У вас есть интересный проект? Свяжитесь со мной
+							У вас есть интересный проект? Напишите мне
 						</h1>
 						<div class="information">
 							<form action="" name="contact-form" class="contact-f">
 								<div class="name-email-contact">
 									<div class="name-contact">
-										<label for="name">Имя</label>
-										<input type="text" id="name" placeholder="Как к вам обращаться">
+										<label for="name" class="label-name">Имя</label>
+										<input type="text" id="name" placeholder="Как к вам обращаться" class= "name-input">
 									</div>
 									<div class="email-contact">
-										<label for="mail">E-mail</label>
-										<input type="email" id="mail" placeholder="Куда мне писать">
+										<label for="mail" class="label-email">E-mail</label>
+										<input type="email" id="mail" placeholder="Куда мне писать" class="email-input">
 									</div>
 								</div>
 								<div class="message-contact">
-									<label for="text">Сообщение</label>
-									<textarea name="message-text" id="text" class="area" placeholder="Кратко, в чем суть">
+									<label for="text" class="label-message">Сообщение</label>
+									<textarea id="text"
+									placeholder="Как к вам обращаться" name="message-text"  class="message-input">
 										
 									</textarea>
 								</div>
@@ -107,7 +108,9 @@
 									<div class="capcha-text">
 										Введите код, указанный на картинке
 									</div>
-									<img src="img/capcha.png" alt="Капча" class="capcha-img">
+									<div class="capcha-wraper">
+										<img src="img/capcha.png" alt="Капча" class="capcha-img">
+									</div>
 									<input type="text" class="capcha-confirm" placeholder="Введите код">
 								</div>
 								<div class="buttons-contact">

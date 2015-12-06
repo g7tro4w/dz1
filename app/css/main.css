@@ -3,16 +3,25 @@ html{
 }
 
 @font-face {
-    font-family: Opensans; /* Гарнитура шрифта */
-    src: url(../fonts/opensans-regular.ttf); /* Путь к файлу со шрифтом */
+    font-family: 'open_sansregular';
+    src: url('../font/opensans-regular-webfont.eot');
+    src: url('../font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-regular-webfont.woff2') format('woff2'),
+         url('../font/opensans-regular-webfont.woff') format('woff'),
+         url('../font/opensans-regular-webfont.ttf') format('truetype'),
+         url('../font/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body{
+	font-family: 'open_sansregular': 
 	height: 100%;
 	background: url(../img/background.png) repeat;
 	background-size: cover;
 	background-position: top center;
-	font: normal 1em 'Opensans';
+	font: normal 1em;
 	color: #727070;
 }
 

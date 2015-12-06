@@ -69,6 +69,8 @@
 }
 
 .main-block .skill-list{
+	color: #1e7465;
+	font-weight: bolder;
 	list-style: none;
 	float: right;
 	max-width: 220px;
@@ -91,13 +93,13 @@
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	margin-bottom: 36px;
+	margin-bottom: 25px;
 }
 
 .work-list .work-item{
 	font-size: 14px;
 	border-bottom: 1px #d0d0d0 groove;
-	padding-bottom: 12px;
+	padding-bottom: 20px;
 	margin-bottom: 12px;
 
 }
@@ -137,6 +139,7 @@
 }
 
 .text-wrap{
+	padding-top: 5px;
 	clear: none;
 	margin-left: 100px;
 	height: auto;

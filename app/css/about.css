@@ -9,10 +9,10 @@
 .main-block .Head-text{
 	width: 100%;
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: bolder;
 	color: #eeedec;
 	border: 1px #636363 solid;
-	margin: 0 0 38px;
+	margin: 0 0 30px;
 	background: linear-gradient(to top, #7c7979, #a8a7a7);
 	display: inline-block;
 	padding: 13px 44px;
@@ -25,16 +25,20 @@
 }
 
 .main-block .photo{
-	width: 140px;
-	height: 140px;
+	width: 135px;
+	height: 135px;
 	border-radius: 50% 50%;
 	overflow: hidden;
-	border: 10px #FFF solid;
+	border: 8px #FFF solid;
+}
+
+.avatar{
+	width: 100%;
 }
 
 .main-block .information{
 	float: right;
-	width: 380px;
+	width: 440px;
 	margin-bottom: 38px;
 }
 
@@ -118,25 +122,41 @@
 	border-bottom: 1px #d0d0d0 groove;
 	padding-bottom: 12px;
 	margin-bottom: 12px;
+	height: auto;
 }
 
 .edu-list .edu-item:last-child{
+	display: block;
 	border-style: none;
 }
 
 
 .edu-item .where{
+	clear: none;
 	font-weight: bolder;
 }
 
-.icon{
-	padding: 6px;
+.text-wrap{
+	clear: none;
+	margin-left: 100px;
+	height: auto;
+}
+
+.icon-wrap{
+	float: left;
+	width: 44px;
+	height: 44px;
 	border-radius: 50% 50%;
 	overflow: hidden;
 	border: 1px #d0d0d0 groove;
-	float: left;
-	margin-left: 36px;
-	margin-right: 12px;
+	margin-left: 40px;
+}
+
+.icon{
+	width: 60%;
+	position: relative;
+	top: 9px;
+	left: 9px;
 }
 
 

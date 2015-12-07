@@ -7,15 +7,13 @@
 }
 
 .main-block .Head-text{
-	width: 100%;
 	font-size: 24px;
 	font-weight: bold;
 	color: #eeedec;
 	border: 1px #636363 solid;
 	margin: 0 0 38px;
 	background: linear-gradient(to top, #7c7979, #a8a7a7);
-	display: inline-block;
-	padding: 11px 44px;
+	padding: 14px 40px;
 }
 
 .myworks-list{
@@ -24,15 +22,21 @@
 	padding: 0;
 	text-decoration: none;
 	font-size: 14px;
+	padding: 0 14px;
+	height: auto;
 }
 
 .myworks-list .mywork-item{
-	height: auto;
-	width: 175px;
-	padding: 0;
-	margin: 0 0 50px 30px;
 	display: inline-block;
-	border: 2px #bfbfbf groove;
+	height: auto;
+	vertical-align: top;
+	width: 162px;
+	height: auto;
+	padding: 0;
+	margin: 0 0 40px 30px;
+	display: inline-block;
+	border: 2px #bfbfbf solid;
+	border-radius: 6px;
 	background: #000000;
 	overflow: hidden;
 }
@@ -42,7 +46,7 @@
 }
 
 .mywork-item .mywork-img-link{
-	height: 120px;
+	height: 112px;
 	overflow: hidden;
 	display: block;
 	width: 100%;
@@ -53,11 +57,16 @@
 	opacity: 0.3;
 }
 
+.mywork-item .mywork-img-link:hover~.inside-span{
+	display: block;
+}
+
 .mywork-item .mywork-name{
 	color: #727070;
 	text-decoration: none;
 	padding: 4px;
-	border-top: 2px #bfbfbf groove;
+	border-top: 1px #bfbfbf solid;
+	border-bottom: 1px #bfbfbf solid;
 	font-weight: bold;
 	background: #f2f2f2;
 	display: block;
@@ -69,6 +78,7 @@
 	display: block;
 	width: 100%;
 	text-align: center;
+	height: auto;
 }
 
 .myworks-list .mywork-item.new{
@@ -77,7 +87,7 @@
 }
 
 .new-link{
-	display: block;
+	display: inline-block;
 	height: 100%;
 	width: 100%;
 }
@@ -91,30 +101,35 @@
 }
 
 .new-work-wrapper{
+	text-decoration: none;
 	position: relative;
 	top: 5px;
 	margin: 0;
-	height: 54px;
-	width: 54px;
+	height: 50px;
+	width: 50px;
 	display: block;
+	margin-top: 18px;
 	margin-bottom: 10px;
-	margin-left: 55px;
+	margin-left: 54px;
 	border-radius: 50% 50%;
 	padding: 2px;
-	border: 1px #bfbfbf groove;
+	border: 1px #bfbfbf solid;
+	background: url(../img/new_project.png) no-repeat center;
+
 }
 
-.new-work-wrapper .new-work-img{
-	position: relative;
-	height: 35%;
-	width: 35%;
-	left: 16px;
-	top: 16px;
-}
 
 .new-work-text{
 	color: #727070;
 	text-decoration: none;
 	padding: 5px;
 	text-align: center;
+}
+
+.inside-span{
+	
+}
+
+.inside-label{
+	
 }

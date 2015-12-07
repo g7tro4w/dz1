@@ -9,13 +9,11 @@
 .main-block .Head-text{
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-	width: 100%;
 	font-size: 24px;
 	font-weight: bolder;
 	color: #eeedec;
 	margin: 0 0 38px;
 	background: linear-gradient(to top, #7c7979, #a8a7a7);
-	display: inline-block;
 	padding: 14px 40px;
 }
 
@@ -50,11 +48,11 @@
 }
 
 .main-block .about-list-item{
-	margin-bottom: 8px;
+	margin-bottom: 4px;
 }
 
 .main-block .about-list-item:last-child{
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .main-block .about-string{
@@ -65,12 +63,14 @@
 }
 
 .main-block .about-text{
+	display: inline-block;
+	margin-right: 0px;
 	margin: 0px;
 	padding-left: 8px;
 	overflow: hidden;
 	font-size: 14px;
 	font-style: normal;
-	max-width: 220px;
+	max-width: 210px;
 }
 
 .main-block .skill-list{
@@ -89,7 +89,6 @@
 	margin-bottom: 8px;
 	height: 18px;
 	display: block;
-	background-size: contain;
 }
 
 
@@ -102,13 +101,14 @@
 }
 
 .work-list .work-item{
+	display: inline-block;
 	margin-left: 40px;
 	width: 87%;
 	overflow: hidden;
 	font-size: 14px;
 	border-bottom: 1px #d0d0d0 groove;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 22px;
+	margin-bottom: 16px;
 }
 
 .work-list .work-item:last-child{
@@ -129,11 +129,7 @@
 }
 
 .edu-list .edu-item{
-	/*font-size: 14px;
-	border-bottom: 1px #d0d0d0 groove;
-	padding-bottom: 12px;
-	margin-bottom: 12px;
-	height: auto;*/
+	display: inline-block;
 	margin-left: 40px;
 	width: 87%;
 	overflow: hidden;
@@ -157,7 +153,6 @@
 
 .text-wrap{
 	display: block;
-	height: 100%;
 	vertical-align: center;
 	clear: none;
 	margin-left: 95px;
@@ -172,17 +167,52 @@
 	overflow: hidden;
 	border: 1px #d0d0d0 solid;
 	box-shadow: 1px 1px 1px 0px #575555 inset; 
+
+}
+.icon-wrap.work{
+	background: url("../img/work.png") center no-repeat;
+}
+.icon-wrap.school{
+	background: url("../img/school.png") center no-repeat;
+}
+.icon-wrap.edu{
+	background: url("../img/education.png") center no-repeat;
+}
+.icon-wrap.course{
+	background: url("../img/file.png") center no-repeat;
 }
 
-.icon{
-	width: 45%;
-	position: relative;
-	top: 15px;
-	left: 14px;
-}
 
 
 .skill-list .skill-list-item .skill-list-item-text{
-		background: url(../img/skill.png) no-repeat center;
+		display: inline;
+	    border: 1px solid #cdcccc;
+	    border-radius: 3px;
+	    padding: 2px 8px 2px 8px;
+	    background: linear-gradient(to top, #e0e0e0, #f8f8f8);
+	    line-height: 25px;
+	    border-left: none;
+	    position: relative;
+	    margin-left: 8px;
+	    font-size: 12px;
 }
 
+.skill-list .skill-list-item:before{
+		content: "";
+		background: url(../img/ugol.png);
+		background-size: cover;
+	    width: 9px;
+	    height: 18px;
+	    display: block;
+	    background-repeat: no-repeat;
+	    margin-top: 3px;
+	    margin-left: -0px;
+	    position: absolute;
+
+}
+
+.skill-list .skill-list-item:after{
+		content: "";
+		background: url(../img/konec.png);
+		background-size: cover;
+}
